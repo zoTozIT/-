@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Данные и логи (не коммитим сгенерированное)
+data/*.db
+data/*.json
+logs/*.log
+
+# IDE
+.idea/
+.vscode/
