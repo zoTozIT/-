@@ -1,0 +1,7 @@
+# Внешние зависимости проекта.
+# sqlite3, argparse, json, xml, tkinter, logging входят в стандартную
+# библиотеку Python и установки не требуют.
+
+tinydb>=4.0          # второй бэкенд БД (выбирается через --backend tinydb)
+pytest>=7.0          # тесты
+pytest-cov>=4.0      # отчёт о покрытии

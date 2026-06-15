@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "1": {
+      "name": "customers",
+      "next_id": 4
+    },
+    "2": {
+      "name": "orders",
+      "next_id": 5
+    }
+  },
+  "customers": {
+    "1": {
+      "id": 1,
+      "name": "Иван Петров",
+      "phone": "+79001112233",
+      "address": "ул. Ленина, 1"
+    },
+    "2": {
+      "id": 2,
+      "name": "Мария Сидорова",
+      "phone": "+79004445566",
+      "address": "ул. Мира, 5"
+    },
+    "3": {
+      "id": 3,
+      "name": "ООО Ромашка",
+      "phone": "+74951234567",
+      "address": "пр. Победы, 10"
+    }
+  },
+  "orders": {
+    "1": {
+      "id": 1,
+      "customer_id": 1,
+      "order_date": "2026-06-15",
+      "status": "новый",
+      "total": 1620,
+      "items": [
+        {
+          "product_name": "Пицца Маргарита",
+          "quantity": 2,
+          "price": 750
+        },
+        {
+          "product_name": "Кола",
+          "quantity": 1,
+          "price": 120
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "customer_id": 2,
+      "order_date": "2026-06-12",
+      "status": "выполнен",
+      "total": 1990,
+      "items": [
+        {
+          "product_name": "Суши-сет",
+          "quantity": 1,
+          "price": 1990
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "customer_id": 3,
+      "order_date": "2026-06-05",
+      "status": "в доставке",
+      "total": 5250,
+      "items": [
+        {
+          "product_name": "Бизнес-ланч",
+          "quantity": 15,
+          "price": 350
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "customer_id": 1,
+      "order_date": "2026-05-26",
+      "status": "отменён",
+      "total": 870,
+      "items": [
+        {
+          "product_name": "Бургер",
+          "quantity": 3,
+          "price": 290
+        }
+      ]
+    }
+  }
+}
